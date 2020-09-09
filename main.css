@@ -2,34 +2,58 @@ body {
     background-color:#f8f8f8 ;
 }
      header {
+            display: inline-block;     
+            background-color: yellow;
+            width: 1000px;
+            margin-left: calc( 50% - 500px );
 
      }
          header > img {
+             display: inline-block;
+             float: left;
 
           }
           nav {
+              display: inline-block;
+              float: right;
 
           }
             a{ 
+                display: inline-block;
 
             }
             a:last-of-type {
+                display: inline-block;
                 color: red;
             }
     main {
+        display: inline-block;
+        background-color: blue;
+        width: 1000px;
+        margin-left: calc( 50% - 500px) ;
 
     }  
         div{
+            display: inline-block;
+            width: 40%;
+            float: left;
+            margin-right: 10%;
+            margin-top: 100px;
         
         }
             h1{
+                display: inline-block;
 
             }
             p{
+                display: inline-block;
 
             }
 
        
         main >img {
+            display: inline-block;
+            width: 50%;
+            float: right;
 
         }   
